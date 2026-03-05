@@ -67,7 +67,7 @@ label{
     left: 1.2em;
     top: -1.3em;
     cursor: auto;
-    transition: 0.3 ease all;
+    transition: 0.3s ease all;
 }
 
 input:focus~label,input:not(:placeholder-shown)~label{
@@ -156,4 +156,5 @@ button{
 button:hover{
     text-decoration: underline;
     color: rgb(85, 85, 231);
+
 }
